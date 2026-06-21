@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Meerab Arslan Crypto</title>
+
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<style>
+body{
+margin:0;
+font-family:Arial;
+background:#020617;
+color:white;
+}
+
+*{box-sizing:border-box}
+
+header{
+display:flex;
+justify-content:space-between;
+padding:20px 7%;
+background:#071126;
+}
+
+.logo{
+font-size:28px;
+color:#00eaff;
+font-weight:bold;
+}
+
+nav a{
+color:white;
+margin:10px;
+text-decoration:none;
+}
+
+
+.hero{
+height:90vh;
+display:flex;
+align-items:center;
+justify-content:space-around;
+padding:40px;
+}
+
+
+h1{
+font-size:60px;
+}
+
+span{
+color:#00eaff;
+}
+
+
+.coin{
+width:300px;
+height:300px;
+border-radius:50%;
+background:linear-gradient(45deg,#00eaff,#8b5cf6);
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:100px;
+animation:rotate 5s infinite linear;
+box-shadow:0 0 80px #00eaff;
+}
+
+
+@keyframes rotate{
+100%{transform:rotateY(360deg)}
+}
+
+
+.container{
+padding:40px;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+
+.card{
+background:#ffffff12;
+padding:25px;
+border-radius:25px;
+backdrop-filter:blur(15px);
+border:1px solid #ffffff22;
+}
+
+
+button{
+padding:15px;
+border-radius:30px;
+border:0;
+background:#00eaff;
+}
+
+
+table{
+width:90%;
+margin:auto;
+background:#ffffff12;
+border-radius:20px;
+padding:20px;
+}
+
+
+td,th{
+padding:15px;
+}
+
+
+.chat{
+position:fixed;
+right:20px;
+bottom:20px;
+background:#00eaff;
+color:black;
+padding:20px;
+border-radius:50%;
+}
+
+
+</style>
+</head>
+
+
+<body>
+
+
+<header>
+
+<div class="logo">
+🚀 Meerab Crypto
+</div>
+
+
+<nav>
+
+<a href="#">Home</a>
+<a href="#">Wallet</a>
+<a href="#">Trading</a>
+<a href="#">NFT</a>
+<a href="#">Settings</a>
+
+</nav>
+
+</header>
+
+
+
+<section class="hero">
+
+<div>
+
+<h1>
+Next Generation
+<br>
+<span>Crypto Exchange</span>
+</h1>
+
+
+<p>
+Buy • Sell • Trade • Earn
+</p>
+
+
+<button>
+Create Account
+</button>
+
+</div>
+
+
+
+<div class="coin">
+₿
+</div>
+
+</section>
+
+
+
+<div class="container">
+
+
+<div class="card">
+
+<h2>Wallet</h2>
+
+<h1>$24,580</h1>
+
+<p>BTC ETH USDT</p>
+
+</div>
+
+
+
+<div class="card">
+
+<h2>Portfolio</h2>
+
+<p>
+Profit: +18.5%
+</p>
+
+</div>
+
+
+
+<div class="card">
+
+<h2>KYC</h2>
+
+<p>
+✔ Verified User
+</p>
+
+</div>
+
+
+
+<div class="card">
+
+<h2>Security</h2>
+
+<p>
+2FA Enabled
+</p>
+
+</div>
+
+
+</div>
+
+
+
+<h2 style="padding:40px">
+Crypto Market
+</h2>
+
+
+<table>
+
+<tr>
+<th>Coin</th>
+<th>Price</th>
+<th>Status</th>
+</tr>
+
+
+<tr>
+<td>Bitcoin</td>
+<td>$68,400</td>
+<td>+5%</td>
+</tr>
+
+
+<tr>
+<td>Ethereum</td>
+<td>$3500</td>
+<td>+3%</td>
+</tr>
+
+
+<tr>
+<td>Meerab Coin</td>
+<td>$125</td>
+<td>+12%</td>
+</tr>
+
+
+</table>
+
+
+
+
+<div class="container">
+
+
+<div class="card">
+<h2>Trading</h2>
+<p>
+Live charts + orders
+</p>
+</div>
+
+
+<div class="card">
+<h2>NFT Market</h2>
+<p>
+Buy digital assets
+</p>
+</div>
+
+
+<div class="card">
+<h2>Notifications</h2>
+<p>
+3 New alerts
+</p>
+</div>
+
+
+<div class="card">
+<h2>User Settings</h2>
+<p>
+Profile & preferences
+</p>
+</div>
+
+
+</div>
+
+
+
+<div class="chat">
+AI
+</div>
+
+
+</body>
+</html>
